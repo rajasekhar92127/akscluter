@@ -13,10 +13,10 @@ variable "cluster_name" {
   description = "AKS name in Azure"
   default = "demo-cluster"
 }
-variable "kubernetes_version" {
-  type        = string
-  description = "Kubernetes version"
-}
+#variable "kubernetes_version" {
+ # type        = string
+  #description = "Kubernetes version"
+#}
 variable "system_node_count" {
   type        = number
   description = "Number of AKS worker nodes"
